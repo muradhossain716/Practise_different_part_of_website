@@ -4,5 +4,5 @@
   <li>Skew baground of a text</li>
   <li>Button syle</li>
   <li>% line drawing</li>
-  
+  <li>Typing Script</li>
 </ul>

@@ -1,7 +1,7 @@
 h1 span{
   position: relative;
 }
-span::after{
+h1 span::after{
   position: absolute;
   content: '';
   width: 100%;
