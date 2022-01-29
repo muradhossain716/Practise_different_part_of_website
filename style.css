@@ -73,3 +73,20 @@ h2::before {
   background-color: crimson;
   content: '';
 }
+.cookie-message{
+  height: 60px;
+  max-width: 50vw;
+  margin: 0 auto;
+background-image:linear-gradient(to top left, rgb(238, 238, 182),yellow)
+
+}
+.btn{
+  padding: 1rem 2rem;
+  border: 2px solid crimson;
+  background-color: crimson;
+  border-radius: 5px;
+
+}
+.btn:hover{
+  background: none;
+}
