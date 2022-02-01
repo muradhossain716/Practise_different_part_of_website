@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="modal.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slide slide--2">
+        <div class="testimonial">
+            <h5 class="testimonial__header">
+                The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+                Quisquam itaque deserunt ullam, quia ea repellendus provident,
+                ducimus neque ipsam modi voluptatibus doloremque, corrupti
+                laborum. Incidunt numquam perferendis veritatis neque repellendus.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+                deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+                <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+                <h6 class="testimonial__name">Miyah Miles</h6>
+                <p class="testimonial__location">London, UK</p>
+            </address>
+        </div>
+    </div>
+    <button class="show">&times;</button>
+    <div class="modal hidden">
+        <button>&times;</button>
+        <h2>Open your account<br />
+            within <span class="modal_text">5 minutes</span></h2>
+
+
+
+        <form class="modal_form">
+            <label>First Name</label>
+            <input type="text">
+            <label>Last Name</label>
+            <input type="text">
+            <label>Email Address</label>
+            <input type="email">
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="modal.js"></script>
+</body>
+
+</html>

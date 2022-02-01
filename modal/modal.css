@@ -1,0 +1,90 @@
+*{
+outline: none;
+margin: 0;
+padding: 0;
+box-sizing: inherit
+};
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.modal{
+    position: fixed;
+    left: 50%;
+    top:50%;
+    background-color: #f3f3f3;
+    max-width: 50rem;
+    transform: translate(-50%,-50%);
+    padding: 4rem 2rem;
+    z-index:1000;
+    transition: 0.6s;
+    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+}
+.modal button{
+  position: absolute;
+  left: 93%;
+  top:3%;
+  font-size: 1.7rem;
+  border: none;
+  background: none;
+}
+.modal h2{
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    margin-left: 2rem;
+}
+.modal_text{
+    position: relative;
+}
+.modal_text::before{
+    position: absolute;
+    content: "";
+    background-image:linear-gradient(to top left,#55c255 ,rgb(17, 248, 106)) ;
+    width: 100%;
+    height: 100%;
+    transform:skewX(-15deg);
+    display: block;
+    left:0;
+    top:0;
+    z-index: -1;
+    opacity:0.7;
+
+}
+.modal_form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap:2.5rem;
+}
+.modal label{
+    font-size: 1.7rem;
+}
+.modal input{
+    font-size: 0.7rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    width: 78%;
+}
+.overlay{
+
+left: 0;
+
+top: 0;
+
+position: absolute;
+
+height: 100%;
+
+width: 100%;
+
+z-index: 100;
+
+background: rgb(0 0 0 / 30%);
+
+backdrop-filter: blur(4px);
+}
+.hidden{
+    display: none;
+}
